@@ -1,1 +1,31 @@
+def add(num1, num2):
+    return num1+num2
 
+def min(num1,num2):
+    return num1-num2
+
+def multi(num1,num2):
+    return num1*num2
+
+def div(num1,num2):
+    return num1/num2
+
+def calculator():
+    print ("Select type of operation:")
+    print("1. ADD")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+
+    choice=input ("Enter choice(1/2/3/4):")
+    num1=float(input("Enter first number:"))
+    num2=float(input("Enter second number:"))
+    if choice=="1":
+        print(add(num1,num2))
+    elif choice=="2":
+        print(min(num1,num2))
+    elif choice=="3":
+        print(multi(num1,num2))
+    elif choice=="4":
+        print(div(num1,num2))
+calculator()
