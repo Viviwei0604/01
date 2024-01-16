@@ -1,1 +1,17 @@
-
+def count(text):
+    global upcount
+    upcount=0
+    global lowcount
+    lowcount=0
+    for i in text:
+        if i.isupper():
+            upcount=upcount+1
+        elif i.islower():
+            lowcount=lowcount+1
+        else:
+            continue
+    return upcount, lowcount
+A=input("Please enter")
+count(A)
+print(f"There are {upcount}upcount, and {lowcount}lowcount")
+ 
