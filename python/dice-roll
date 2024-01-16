@@ -1,1 +1,6 @@
-
+import random
+def roll_dice():
+    return print(random.randrange(1,6))
+print(roll_dice())
+print(roll_dice())
+print(roll_dice())
