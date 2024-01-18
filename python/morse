@@ -1,4 +1,4 @@
-def morse_translator(text):
+def morse_translator(X):
      morse_code_dict = {
         "A": ".-",
         "B": "-...",
@@ -27,10 +27,23 @@ def morse_translator(text):
         "Y": "-.--",
         "Z": "--..",
     }
-    # for the function should be case-insensitive, translate every character into uppercase
-     text = text.upper()
-     # This list is used to store words converted to Morse code.
-     morse_translated = []
+     if X in morse_code_dict:
+         return morse_code_dict[X]
+     
+     def morse_code_tanslator(s):
+   
+       s = s.upper()
+       num=len(s)
+       Morsecode=''
+       i=0
+       for i in range(num):
+           Morsecode += str(morse_code_dict(s[i]))
+       return Morsecode
+     
+
+       s=input()
+       Morse = morse_code_tanslator(s)
+       print(Morse)
 
      for word in text.split():
         morse_word = [morse_code_dict[char] for char in word if char in morse_code_dict]
