@@ -1,5 +1,4 @@
-def morse_translator(X):
-     morse_code_dict = {
+morse_code_dict = {
         "A": ".-",
         "B": "-...",
         "C": "-.-.",
@@ -27,24 +26,16 @@ def morse_translator(X):
         "Y": "-.--",
         "Z": "--..",
     }
-     if X in morse_code_dict:
-         return morse_code_dict[X]
-     
-     def morse_code_tanslator(s):
-   
-       s = s.upper()
-       num=len(s)
-       Morsecode=''
-       i=0
-       for i in range(num):
-           Morsecode += str(morse_code_dict(s[i]))
-       return Morsecode
-     
 
-       s=input()
-       Morse = morse_code_tanslator(s)
-       print(Morse)
-
-     for word in text.split():
-        morse_word = [morse_code_dict[char] for char in word if char in morse_code_dict]
-        morse_translated.append(' '.join(morse_word)) 
+def morse_encode(text):
+     morse_str = "" #This string will be used to accumulate characters converted to Morse code.
+     for char in text:
+        if char.upper() in morse_code_dict: #If the character exists in the dictionary, this line adds the character's Morse code to the morse_str string.
+            morse_str += morse_code_dict[char.upper()]  #If a character is not in the dictionary (such as a number or punctuation mark), the character is added to the morse_str string unchanged.
+        else:
+            morse_str += char
+     return morse_str.rstrip() #Return a morse_str string with any extra spaces at the end of the string removed using the rstrip() method.
+     
+text=input("Please enter text:")
+morse_str=morse_encode(text)
+print(morse_str)
