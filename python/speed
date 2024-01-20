@@ -1,0 +1,32 @@
+def speeding_ticket(speed, is_birthday):
+   if is_birthday:
+        no_ticket_limit = 65
+        small_ticket_limit = 85
+   else:
+        no_ticket_limit = 60
+        small_ticket_limit = 80
+   
+   
+   if speed <= no_ticket_limit:
+        return "No Ticket"
+   elif no_ticket_limit < speed <= small_ticket_limit:
+        return "Small Ticket"
+   else:
+        return "Big Ticket"
+
+birthday_input = input("Is today your birthday (yes/no)?: ")
+is_birthday = birthday_input.lower() == "yes"
+speed = int(input("Please enter your speed: "))
+
+ticket=speeding_ticket(speed, is_birthday)
+print(ticket)
+
+
+
+# Test cases
+print("Test Cases:")
+print(speeding_ticket(60, False))  # Expected output: "No Ticket"
+print(speeding_ticket(75, False))  # Expected output: "Small Ticket"
+print(speeding_ticket(85, False))  # Expected output: "Big Ticket"
+print(speeding_ticket(65, True))  # Expected output: "No Ticket"
+print(speeding_ticket(85, True))  # Expected output: "Small Ticket"
