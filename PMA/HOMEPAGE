@@ -60,13 +60,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Homepage</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Warwick Campus Cuisine</a>
+                            <a class="nav-link" href="#">About </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Location</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Q & A</a>
+                            <a class="nav-link" href="#">Q&A</a>
                         </li>
                     </ul>
                     <button class="btn order-button">Contact us</button>
@@ -83,13 +83,11 @@
             <h1>Your One-Stop Hub for Campus Cuisine!</h1>
         </div>
 
-        <!-- Image -->
-        <div class="text-center mt-4" style="display: flex; justify-content: space-around;"></div>>
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/buffet.jpg" alt="Buffet" style="max-width: 20%; height: auto;margin: 10px;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/pizza_image2.png" alt="pizza" style="max-width: 20%; height: auto;margin: 10px;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/delivered-to-you.jpg" alt="bowls" style="max-width: 20%; height: auto;margin: 10px;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/pret-platters.jpg" alt="bowls" style="max-width: 20%; height: auto;margin: 10px;">
-    
+        <div class="text-center mt-4" style="display: flex; justify-content: space-around;">
+            <img src="https://warwick.ac.uk/services/foodanddrink/menus/buffet.jpg" alt="Buffet" style="max-width: 20%; height: auto; margin: 10px;">
+            <img src="https://warwick.ac.uk/services/foodanddrink/menus/pizza_image2.png" alt="pizza" style="max-width: 20%; height: auto; margin: 10px;">
+            <img src="https://warwick.ac.uk/services/foodanddrink/menus/delivered-to-you.jpg" alt="bowls" style="max-width: 20%; height: auto; margin: 10px;">
+            <img src="https://warwick.ac.uk/services/foodanddrink/menus/pret-platters.jpg" alt="bowls" style="max-width: 20%; height: auto; margin: 10px;">
         </div>
 
         <!-- Food Services Heading -->
