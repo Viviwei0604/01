@@ -1,222 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Warwick Dining Hub</title>
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!-- Custom Internal Styling -->
-        <style>
-            body {
-                background-color:rgb(233, 141, 108);
-                color: white;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warwick Dining Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom Internal Styling -->
+    <style>
+        body {
+            background-color: rgb(233, 141, 108);
+            color: white;
+        }
 
-            .navbar-brand {
-                font-size: 1.5em;
-                /* Larger text for logo */
-            }
+        .navbar-brand {
+            font-size: 1.5em;
+            /* Larger text for logo */
+        }
 
-            .order-button {
-                background-color: white;
-                color: black;
-                border: none;
-            }
+        .order-button {
+            background-color: white;
+            color: black;
+            border: none;
+        }
 
-            .solid-navbar {
-                background-color:rgb(231, 177, 43);
-                /* Matches Bootstrap Card */
-            }
+        .solid-navbar {
+            background-color: rgb(231, 177, 43);
+            /* Matches Bootstrap Card */
+        }
 
-            .custom-jumbotron {
-                background: url('https://warwick.ac.uk/services/foodanddrink/banner.jpg') no-repeat center center;
-                background-size: cover;
-            }
+        .custom-jumbotron {
+            background: url('https://warwick.ac.uk/services/foodanddrink/banner.jpg') no-repeat center center;
+            background-size: cover;
+        }
 
-            .order-button {
-                background-color: white;
-                color: black;
-                border: none;
-            }
-        </style>
-    </head>
+        .order-button {
+            background-color: white;
+            color: black;
+            border: none;
+        }
+    </style>
+</head>
 
-    <body>
+<body>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top solid-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Warwick Dining Hub</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Homepage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Location</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Q&A</a>
-                        </li>
-                    </ul>
-                    <button class="btn order-button">Contact us</button>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Jumbotron Banner-->
-        <div class="custom-jumbotron p-5 text-white rounded text-center" style="height: 300px;">
-        </div>
-
-        <!-- Main Heading -->
-        <div class="text-center mt-4">
-            <h1>Your One-Stop Hub for Campus Cuisine!</h1>
-        </div>
-
-        <div class="text-center mt-4" style="display: flex; justify-content: space-around;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/buffet.jpg" alt="Buffet" style="max-width: 20%; height: auto; margin: 10px;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/pizza_image2.png" alt="pizza" style="max-width: 20%; height: auto; margin: 10px;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/delivered-to-you.jpg" alt="bowls" style="max-width: 20%; height: auto; margin: 10px;">
-            <img src="https://warwick.ac.uk/services/foodanddrink/menus/pret-platters.jpg" alt="bowls" style="max-width: 20%; height: auto; margin: 10px;">
-        </div>
-
-        <!-- Food Services Heading -->
-        <div class="text-center mt-4">
-            <h2> Warwick Food and Drink services</h2>
-            
-        </div>
-
-        <!-- Menu Cards -->
-        <div class="container mt-4">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <!-- Menu Card -->
-                <div class="col">
-                   
-                    <div class="card bg-warning text-black">
-                        <img src="https://warwick.ac.uk/services/retail/eat-drink/benugo/benugo.jpg" class="card-img-top" alt="Restaurant">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top solid-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:3000/homepage.html">Warwick Dining Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/Location.html#">Location</a>
                         
-                        <div class="card-body">
-                            <h5 class="card-title">Resteraurants</h5>
-                            <p class="card-text"style="font-size: 12px;">Run by Warwick SU, offering a great range of food and drink.</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Q&A</a>
+                    </li>
+                </ul>
+                <button class="btn order-button">Contact us</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Banner-->
+    <div class="custom-jumbotron p-5 text-white rounded text-center" style="height: 300px;">
+    </div>
+
+    <!-- Main Heading -->
+    <div class="text-center mt-4">
+        <h1>Your One-Stop Hub for Campus Cuisine!</h1>
+    </div>
+
+    <div class="text-center mt-4" style="display: flex; justify-content: space-around;">
+        <img src="https://warwick.ac.uk/services/foodanddrink/menus/buffet.jpg" alt="Buffet"
+            style="max-width: 20%; height: auto; margin: 10px;">
+        <img src="https://warwick.ac.uk/services/foodanddrink/menus/pizza_image2.png" alt="pizza"
+            style="max-width: 20%; height: auto; margin: 10px;">
+        <img src="https://warwick.ac.uk/services/foodanddrink/menus/delivered-to-you.jpg" alt="bowls"
+            style="max-width: 20%; height: auto; margin: 10px;">
+        <img src="https://warwick.ac.uk/services/foodanddrink/menus/pret-platters.jpg" alt="bowls"
+            style="max-width: 20%; height: auto; margin: 10px;">
+    </div>
+
+    <!-- Food Services Heading -->
+    <div class="text-center mt-4">
+        <h2> Warwick Food and Drink services</h2>
+
+    </div>
+
+    <!-- Menu Cards -->
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Menu Card -->
+            <div class="col">
+
+                <div class="card bg-warning text-black">
+                    <img src="https://warwick.ac.uk/services/retail/eat-drink/benugo/benugo.jpg" class="card-img-top"
+                        alt="Restaurant">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Resteraurants</h5>
+                        <p class="card-text" style="font-size: 12px;">Run by Warwick SU, offering a great range of food
+                            and drink.</p>
                         <div style="display: flex; justify-content: center;">
 
                             <button class="btn order-button">Find out more</button>
                         </div>
-                            
-                        </div>
+
                     </div>
                 </div>
+            </div>
 
-                
 
-                <div class="col">
-                    
-                    <div class="card bg-warning text-black">
-                        <img src="https://warwick.ac.uk/services/retail/eat-drink/fusion/fusion.jpg" class="card-img-top" alt="Bars">
-                        <div class="card-body">
-                            <h5 class="card-title">Warwick Bars</h5>
-                            <p class="card-text"style="font-size: 12px;"> Full of flavour and a feast for the eyes. Takeaway available.</p>
-                            <div style="display: flex; justify-content: center;">
 
-                                <button class="btn order-button">Find out more</button>
-                            </div>
-                            
+            <div class="col">
+
+                <div class="card bg-warning text-black">
+                    <img src="https://warwick.ac.uk/services/retail/eat-drink/fusion/fusion.jpg" class="card-img-top"
+                        alt="Bars">
+                    <div class="card-body">
+                        <h5 class="card-title">Warwick Bars</h5>
+                        <p class="card-text" style="font-size: 12px;"> Full of flavour and a feast for the eyes.
+                            Takeaway available.</p>
+                        <div style="display: flex; justify-content: center;">
+
+                            <button class="btn order-button">Find out more</button>
                         </div>
+
                     </div>
                 </div>
+            </div>
 
-                <div class="col">
-                    
-                    <div class="card bg-warning text-black">
-                        <img src="https://warwick.ac.uk/services/retail/eat-drink/cafe-library/cafe-library.jpg" class="card-img-top" alt="Cafes">
-                        <div class="card-body">
-                            <h5 class="card-title">Cafes</h5>
-                            <p class="card-text"style="font-size: 12px;"> Hot food counter  and go area for speedy service.</p>
-                            <div style="display: flex; justify-content: center;">
+            <div class="col">
 
-                                <button class="btn order-button">Find out more</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="card bg-warning text-black">
+                    <img src="https://warwick.ac.uk/services/retail/eat-drink/cafe-library/cafe-library.jpg"
+                        class="card-img-top" alt="Cafes">
+                    <div class="card-body">
+                        <h5 class="card-title">Cafes</h5>
+                        <p class="card-text" style="font-size: 12px;"> Hot food counter and go area for speedy service.
+                        </p>
+                        <div style="display: flex; justify-content: center;">
 
-                <div class="col">
-                    <div class="card bg-warning text-black">
-                        <img src="https://warwick.ac.uk/services/retail/eat-drink/red-rocket/red-rocket-1170x450.png" class="card-img-top" alt="Vendors">
-                        <div class="card-body">
-                            <h5 class="card-title">Vendors</h5>
-                            <p class="card-text"style="font-size: 12px;"> Delicious grilled cheese with vegetarian or vegan fillings.</p>
-                            <div style="display: flex; justify-content: center;">
-
-                                <button class="btn order-button">Find out more</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card bg-warning text-black">
-                        <img src="https://warwick.ac.uk/services/retail/eat-drink/foodmarket/food-market.webp" class="card-img-top" alt="Food Market">
-                        <div class="card-body">
-                            <h5 class="card-title">Food Market</h5>
-                            <p class="card-text"style="font-size: 12px;">  Tempting, fresh and delicious street food.</p>
-                           
-                            <div style="display: flex; justify-content: center;">
-
-                                <button class="btn order-button">Find out more</button>
-                            </div>
-               
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card bg-warning text-black">
-                        <img src="https://warwick.ac.uk/services/retail/eat-drink/jidong/jidong.png" class="card-img-top" alt="Food Market">
-                        <div class="card-body">
-                            <h5 class="card-title">Others</h5>
-                            <p class="card-text"style="font-size: 12px;"> Delightful milktea and delicious signature beverages.</p>
-                           
-                            <div style="display: flex; justify-content: center;">
-
-                                <button class="btn order-button">Find out more</button>
-                            </div>
-               
+                            <button class="btn order-button">Find out more</button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="col">
+                <div class="card bg-warning text-black">
+                    <img src="https://warwick.ac.uk/services/retail/eat-drink/red-rocket/red-rocket-1170x450.png"
+                        class="card-img-top" alt="Vendors">
+                    <div class="card-body">
+                        <h5 class="card-title">Vendors</h5>
+                        <p class="card-text" style="font-size: 12px;"> Delicious grilled cheese with vegetarian or vegan
+                            fillings.</p>
+                        <div style="display: flex; justify-content: center;">
+
+                            <button class="btn order-button">Find out more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-warning text-black">
+                    <img src="https://warwick.ac.uk/services/retail/eat-drink/foodmarket/food-market.webp"
+                        class="card-img-top" alt="Food Market">
+                    <div class="card-body">
+                        <h5 class="card-title">Food Market</h5>
+                        <p class="card-text" style="font-size: 12px;"> Tempting, fresh and delicious street food.</p>
+
+                        <div style="display: flex; justify-content: center;">
+
+                            <button class="btn order-button">Find out more</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-warning text-black">
+                    <img src="https://warwick.ac.uk/services/retail/eat-drink/jidong/jidong.png" class="card-img-top"
+                        alt="Food Market">
+                    <div class="card-body">
+                        <h5 class="card-title">Others</h5>
+                        <p class="card-text" style="font-size: 12px;"> Delightful milktea and delicious signature
+                            beverages.</p>
+
+                        <div style="display: flex; justify-content: center;">
+
+                            <button class="btn order-button">Find out more</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <!-- Jumbotron -->
-        <div class="mt-4 p-5  text-white text-center rounded" style="background-color:rgb(233, 175, 27);">
-            <h1>Discover, Dine, and Delight in Warwick: Your One-Stop Hub for Campus Cuisine!</h1>
-            
-        </div>
+    <!-- Jumbotron -->
+    <div class="mt-4 p-5  text-white text-center rounded" style="background-color:rgb(233, 175, 27);">
+        <h1>Discover, Dine, and Delight in Warwick: Your One-Stop Hub for Campus Cuisine!</h1>
 
-
-        <!-- Footer -->
-        <footer class="text-center mt-4 py-3">
-            © 2024 Warwick Dining Hub
-            <p class="card-text"style="font-size: 12px;"> University of Warwick, Coventry, CV4 7AL, United Kingdom</p>
-        
-        </footer>
-
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+    </div>
 
 
-    </body>
+    <!-- Footer -->
+    <footer class="text-center mt-4 py-3">
+        © 2024 Warwick Dining Hub
+        <p class="card-text" style="font-size: 12px;"> University of Warwick, Coventry, CV4 7AL, United Kingdom</p>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</body>
 
 </html>
