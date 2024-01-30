@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warwick Dining Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom Internal Styling -->
+    <style>
+        body {
+            background-color:rgb(233, 141, 108);
+            color: white;
+        }
+
+        .navbar-brand {
+            font-size: 1.5em;
+            /* Larger text for logo */
+        }
+
+        .order-button {
+            background-color: white;
+            color: black;
+            border: none;
+        }
+
+        .solid-navbar {
+            background-color: rgb(231, 177, 43);
+            /* Matches Bootstrap Card */
+        }
+
+        .custom-jumbotron {
+            background: url('https://warwick.ac.uk/research/partnerships/partnerships-page-header.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .order-button {
+            background-color: white;
+            color: black;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top solid-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:3000/homepage.html">Warwick Dining Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:3000/homepage.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Q&A</a>
+                    </li>
+                </ul>
+                <button class="btn order-button">Contact us</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Banner-->
+    <div class="custom-jumbotron p-5 text-white rounded text-center" style="height: 300px;">
+    </div>
+
+    <!-- Main Heading -->
+    <div class="text-center mt-4">
+        <h1>Discover places to eat and drink!</h1>
+    </div>
+
+
+
+
+
+    
+
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div style="width: 49%;">
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://hub.smartne.com/api/files/projects/warwick/623c889cca5be6e1c7d2efa9" alt="Dirty Duck" style="width: 100%; max-width: 600px;">
+            </div>
+            <div>
+                <h5 style="display:flex; justify-content:center; align-items: center;">Location:</h5>
+                <p style="display:flex; justify-content:center; align-items: center; font-size: 15px;">Situated in the SU building, (opposite the Arts Centre) on Gibbet Hill Road.</p>
+                <div style="display: flex; justify-content: center;">
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div style="width: 49%;">
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://warwick.ac.uk/services/retail/eat-drink/benugo/benugo.jpg" alt="B" style="width: 100%; max-width: 600px;">
+            </div>
+            <div>
+                <h5 style="display:flex; justify-content:center; align-items: center;">Location:</h5>
+                <p style="display:flex; justify-content:center; align-items: center; font-size: 15px;">Warwick Arts Centre, University of Warwick</p>
+                <div style="display: flex; justify-content: center;">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div style="width: 49%;">
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://warwick.ac.uk/services/retail/eat-drink/fusion/fusion.jpg" alt="Fusion" style="width: 100%; max-width: 600px;">
+            </div>
+            <div>
+                <h5 style="display:flex; justify-content:center; align-items: center;">Location:</h5>
+                <p style="display:flex; justify-content:center; align-items: center; font-size: 15px;">Rootes Building, first floor</p>
+                <div style="display: flex; justify-content: center;">
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div style="width: 49%;">
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://warwick.ac.uk/services/retail/eat-drink/cafe-library/cafe-library.jpg" alt="B" style="width: 100%; max-width: 600px;">
+            </div>
+            <div>
+                <h5 style="display:flex; justify-content:center; align-items: center;">Location:</h5>
+                <p style="display:flex; justify-content:center; align-items: center; font-size: 15px;">Library, ground floor</p>
+                <div style="display: flex; justify-content: center;">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div style="width: 49%;">
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://warwick.ac.uk/services/retail/eat-drink/ganapathi-catering/ganapathi.jpg" alt="B" style="width: 100%; max-width: 600px;">
+            </div>
+            <div>
+                <h5 style="display:flex; justify-content:center; align-items: center;">Location:</h5>
+                <p style="display:flex; justify-content:center; align-items: center; font-size: 15px;">Computer Science Quadrant</p>
+                <div style="display: flex; justify-content: center;">
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div style="width: 49%;">
+            
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="https://warwick.ac.uk/services/retail/eat-drink/pret-a-manger/pret.jpg" alt="B" style="width: 100%; max-width: 600px;">
+            </div>
+            <div>
+                <h5 style="display:flex; justify-content:center; align-items: center;">Location:</h5>
+                <p style="display:flex; justify-content:center; align-items: center; font-size: 15px;">Rootes Building, ground floor</p>
+                <div style="display: flex; justify-content: center;">
+                    
+                </div>
+            </div>
+        </div>
+  
+        </div>
+    </div>
+    
+    
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="mt-4 p-5  text-white text-center rounded" style="background-color:rgb(233, 175, 27);">
+        <h1>Discover, Dine, and Delight in Warwick!</h1>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center mt-4 py-3">
+        © 2024 Warwick Dining Hub
+        <p class="card-text" style="font-size: 12px;"> University of Warwick, Coventry, CV4 7AL, United Kingdom</p>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
